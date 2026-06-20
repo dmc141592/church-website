@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --background: #ffffff;
+  --surface: #f8f9fa;
+  --surface-strong: #ffffff;
+  --text: #222222;
+  --muted: #657083;
+  --primary: #0e2340;
+  --gold: #d4af37;
+  --gold-dark: #b98f1f;
+  --border: rgba(14, 35, 64, 0.12);
+  --shadow: 0 24px 70px rgba(14, 35, 64, 0.12);
+  --nav-bg: rgba(255, 255, 255, 0.72);
+  --nav-solid: rgba(255, 255, 255, 0.94);
+  --radius: 28px;
+  --transition: 280ms ease;
+}
+
+.dark {
+  --background: #0e1628;
+  --surface: #111d32;
+  --surface-strong: #1b2435;
+  --text: #f5f5f5;
+  --muted: #b7c0d1;
+  --primary: #f5f5f5;
+  --border: rgba(255, 255, 255, 0.1);
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+  --nav-bg: rgba(10, 15, 30, 0.64);
+  --nav-solid: rgba(10, 15, 30, 0.95);
+}
