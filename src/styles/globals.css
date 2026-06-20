@@ -24,11 +24,28 @@ h3 { font-size: 1.35rem; }
 p { color: var(--muted); line-height: 1.8; }
 .eyebrow { display: inline-flex; color: var(--gold); text-transform: uppercase; letter-spacing: 0.2em; font-weight: 700; font-size: 0.78rem; margin-bottom: 15px; }
 .button { display: inline-flex; align-items: center; justify-content: center; border: 0; border-radius: 999px; padding: 14px 24px; font-weight: 700; cursor: pointer; transition: transform var(--transition), box-shadow var(--transition), background var(--transition); }
-.button:hover { transform: translateY(-3px); }
+.button--gold:hover {
+  background: linear-gradient(
+    135deg,
+    #dccdb0,
+    #faf4ea
+  );
+
+  transform: translateY(-3px);
+}
 .button--gold {
-  background: linear-gradient(135deg, var(--gold), var(--gold-light));
-  color: #3a2a05;
-  box-shadow: 0 16px 36px rgba(212, 175, 55, 0.28);
+  background: linear-gradient(
+    135deg,
+    #e5d8be,
+    #f6efe3
+  );
+
+  color: #5a4520;
+
+  box-shadow:
+    0 10px 25px rgba(160, 130, 80, 0.12);
+
+  border: 1px solid rgba(190, 160, 120, 0.15);
 }
 .button--outline { border: 1px solid var(--border); background: transparent; color: var(--text); }
 .navbar { position: fixed; z-index: 1000; top: 16px; left: 50%; transform: translateX(-50%); width: min(1180px, calc(100% - 28px)); height: 74px; padding: 0 18px; border: 1px solid var(--border); border-radius: 999px; display: flex; align-items: center; justify-content: space-between; background: var(--nav-bg); backdrop-filter: blur(20px); transition: all var(--transition); }
