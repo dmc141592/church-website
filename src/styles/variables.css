@@ -1,31 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
-
 :root {
-  --background: #ffffff;
-  --surface: #f8f9fa;
+  --background: #fffdf7;
+  --surface: #fffaf0;
   --surface-strong: #ffffff;
-  --text: #222222;
-  --muted: #657083;
-  --primary: #0e2340;
+
+  --text: #2f2614;
+  --muted: #7b6a42;
+
   --gold: #d4af37;
-  --gold-dark: #b98f1f;
-  --border: rgba(14, 35, 64, 0.12);
-  --shadow: 0 24px 70px rgba(14, 35, 64, 0.12);
-  --nav-bg: rgba(255, 255, 255, 0.72);
-  --nav-solid: rgba(255, 255, 255, 0.94);
+  --gold-light: #f6d66d;
+  --gold-soft: #fff2bd;
+
+  --border: rgba(212, 175, 55, 0.28);
+
+  --nav-bg: rgba(255, 255, 255, 0.82);
+  --nav-solid: rgba(255, 255, 255, 0.96);
+
+  --shadow: 0 18px 45px rgba(160, 115, 20, 0.14);
   --radius: 28px;
-  --transition: 280ms ease;
+  --transition: 0.3s ease;
 }
 
 .dark {
-  --background: #0e1628;
-  --surface: #111d32;
-  --surface-strong: #1b2435;
-  --text: #f5f5f5;
-  --muted: #b7c0d1;
-  --primary: #f5f5f5;
-  --border: rgba(255, 255, 255, 0.1);
-  --shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
-  --nav-bg: rgba(10, 15, 30, 0.64);
-  --nav-solid: rgba(10, 15, 30, 0.95);
+  --background: #fff8e6;
+  --surface: #fff3c4;
+  --surface-strong: #ffffff;
+
+  --text: #2f2614;
+  --muted: #7b6a42;
+
+  --gold: #c99a18;
+  --gold-light: #f6d66d;
+  --gold-soft: #fff2bd;
+
+  --border: rgba(212, 175, 55, 0.3);
+
+  --nav-bg: rgba(255, 255, 255, 0.86);
+  --nav-solid: rgba(255, 255, 255, 0.98);
+
+  --shadow: 0 18px 45px rgba(160, 115, 20, 0.16);
 }
