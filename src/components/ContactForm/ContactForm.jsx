@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import ScrollReveal from '../ScrollReveal/ScrollReveal'
 
-const ADMIN_EMAIL = 'deepthii.mc@gmail.com'
+const ADMIN_EMAIL = 'example@gmail.com'
 
 const initialForm = { name: '', email: '', subject: '', message: '' }
 
@@ -31,7 +31,7 @@ export default function ContactForm() {
       // Future Formspree integration
       // Future backend integration
       // Send contact messages to:
-      // deepthii.mc@gmail.com
+      // example@gmail.com
       console.log('Prepared message for admin:', ADMIN_EMAIL, form)
       setSuccess(true)
       setForm(initialForm)
@@ -49,7 +49,7 @@ export default function ContactForm() {
           <div className="section-heading centered">
             <span className="eyebrow">Contact</span>
             <h1>Send us a message</h1>
-            <p>We would love to hear from you. Contact messages are prepared for {ADMIN_EMAIL}.</p>
+            <p>We would love to hear from you</p>
           </div>
           <form className="contact-form" onSubmit={handleSubmit} noValidate>
             <label>Full Name<input value={form.name} onChange={(e) => updateField('name', e.target.value)} /></label>
