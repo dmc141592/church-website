@@ -20,7 +20,7 @@ export default function Footer() {
         <div>
           <h4>Contact</h4>
           <p>Zürich HB, Bahnhofplatz, 8001 Zürich</p>
-          <p>deepthii.mc@gmail.com</p>
+          <p>example@gmail.com</p>
         </div>
       </div>
       <div className="footer__bottom">© 2026 Church Name. All Rights Reserved.</div>

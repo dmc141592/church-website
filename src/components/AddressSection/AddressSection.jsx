@@ -17,7 +17,7 @@ export default function AddressSection() {
             <div className="content-card">
               <h2>Church Address</h2>
               <p><FiMapPin /> Zürich HB<br />Bahnhofplatz<br />8001 Zürich<br />Switzerland</p>
-              <p><FiMail /> deepthii.mc@gmail.com</p>
+              <p><FiMail /> example@gmail.com</p>
             </div>
           </ScrollReveal>
           <ScrollReveal>
