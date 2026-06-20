@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { FiMenu, FiX } from 'react-icons/fi'
-import ThemeToggle from '../ThemeToggle/ThemeToggle'
+
 
 const links = [
   { to: '/', label: 'Home' },
@@ -39,7 +39,7 @@ export default function Navbar({ theme, toggleTheme }) {
       </nav>
 
       <div className="navbar__actions">
-        <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+       
         <button className="navbar__menu" onClick={() => setOpen((value) => !value)} aria-label="Toggle menu">
           {open ? <FiX /> : <FiMenu />}
         </button>
